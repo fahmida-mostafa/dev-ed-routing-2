@@ -7,7 +7,75 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  text-align: center;
+}
+
+a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.navbar {
+  min-height: 10vh;
+  background-color: #e3350d;
+  color: #fff;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 50px;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  margin: 0;
+  width: 50%;
+}
+
+.pokelist ul {
+  list-style: none;
+  margin: 40px 0px;
+}
+
+.pokelist a {
+  color: #000;
+  text-decoration: underline;
+  font-weight: 400;
+}
+
+.pokelist li {
+  margin: 10px 0px;
+}
+
+.pokelist .pagination ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.pokelist .pagination li {
+  border: 1px solid;
+  width: 35px;
+  height: 35px;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pokedetail img {
+  margin-bottom: 20px;
+}
+
+.pokedetail div {
+  margin-bottom: 10px;
+}
+
+.pokedetail span {
+  margin-left: 20px;
 }
